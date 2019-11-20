@@ -14,11 +14,11 @@ Given the link, it's obvious this is an S3 bucket which is notorious misconfigur
 
 ## Browser
 
-1. Every S3 bucket is given a subdomain `<bucket-name>.s3.amazonaws.com/`. Visiting `https://bucketsoffun-ctf.s3.amazonaws.com/` lists the contents of the bucket.
+1. Every S3 bucket is given a subdomain `<bucket-name>.s3.amazonaws.com`. Visiting `https://bucketsoffun-ctf.s3.amazonaws.com/` lists the contents of the bucket.
 
     ![Browser List](img/weblist.png)
 
-2. Visiting `https://bucketsoffun-ctf.s3.amazonaws.com/youfoundme-asd897kjm.txt` or `https://bucketsoffun-ctf.s3.amazonaws.com/youfoundme-asd897kjm.txt` will give the flag.
+2. Visiting `https://bucketsoffun-ctf.s3.amazonaws.com/youfoundme-asd897kjm.txt` or `http://bucketsoffun-ctf.s3-website-us-east-1.amazonaws.com/youfoundme-asd897kjm.txt` will give the flag.
 
     ![Browser Flag](img/webflag.png)
 
