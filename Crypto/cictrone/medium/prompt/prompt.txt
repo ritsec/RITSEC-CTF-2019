@@ -1,0 +1,10 @@
+CictroKDF
+=============================
+
+The flag is encrypted and then base64'd. Here it is: cGGNyFr/HpaXEZuvV19WoXxTyyOV9Pl27N14W4XQv98=
+
+To decrypt it you will need to implement the amazing Key Derivation Function called CictroKDF
+(not to be confused with the well-known CictroHash). After a key has been derived you can use
+it with AES ECB mode to decrypt the flag.
+
+The message for the KDF is: Are you silly? I'm still gunna send it!!

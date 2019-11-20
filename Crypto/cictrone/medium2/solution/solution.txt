@@ -1,0 +1,8 @@
+The flag is: 4e2Cn3GQ/3kyA1dhu6FUqza+iINJ/GaE/RWlCh2C4Xk=
+
+A reference implementation can be found here: https://classic.mceliece.org/nist/mceliece-20171129.tar.gz
+
+Then use the implementation titled "mceliece6960119'.
+
+The nist/kat_kem.c will need to be edited to implement base64 and then take the private key and encrypted
+flag as input. See the included example file for how to interface with API.

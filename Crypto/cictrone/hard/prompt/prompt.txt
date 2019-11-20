@@ -1,0 +1,33 @@
+Help!!! Our Crypto guy left in a furious rage and deleted our
+company private key and part of our signatures! We use that key
+to sign all of our important documents and such. This should be
+enough information for you to figure it out:
+
+Curve:       NIST256P
+HASH:        SHA256
+Generator X: 48439561293906451759052585252797914202762949526041747995844080717082404635286
+Generator Y: 36134250956749795798585127919587881956611106672985015071877198253568414405109
+Group Order: 115792089210356248762697446949407573529996955224135760342422259061068512044369
+Point X:     62642270921362628024101430148161419180734994811675578761489832783807341294140
+Point Y:     620508080568073990375228521563014425211330352832293590138091382461067773777
+
+I was also told the following gobblygook may be helpful.
+
+-----BEGIN PUBLIC KEY-----
+MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEin5E1fIJtTJ4ICIZ4leN0kT+QguW
+zDv6xizjvWTqcjwBXzHz49NVqrXR1Be16ceYRgtW7iGx1ifF135T0E1HUQ==
+-----END PUBLIC KEY-----
+
+Also so you can see some examples of our signatures... he always was yelling something about
+incrementing a value.
+
+Message 1:   "We are not uncertain with the vote."
+Signature 1: (5469004757321565031662176892324365988603823594146568468219498508892601371422,
+              79937836276667565200355044792462693868454270095571952117096182814592269649296)
+
+Message 2:   "We are uncertain with the vote."
+Signature 2: (???,
+              30705201908992384075889316247635358307738190041386759684653850381547740770548)
+
+
+(just give private key in decimal)
