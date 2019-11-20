@@ -1,0 +1,9 @@
+version: '3'
+services:
+        crackme:
+                build: ./
+                restart: always
+                ports: 
+                        - 8080:5555
+                environment:
+                        - PYTHONUNBUFFERED=1
