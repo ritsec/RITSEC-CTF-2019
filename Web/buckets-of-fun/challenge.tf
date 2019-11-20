@@ -4,7 +4,7 @@ provider "aws" {
 
 variable "bucket_name" {
     type = "string"
-    default = "list-s3.scriptingis.life"
+    default = "bucketsoffun-ctf"
 }
 
 variable "flag" {
