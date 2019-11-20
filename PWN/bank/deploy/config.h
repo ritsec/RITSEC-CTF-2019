@@ -1,0 +1,8 @@
+#ifndef CONFIG_H__
+#define CONFIG_H__
+
+#define CHALLENGE_ENTROPY_BYTES 32
+#define CHALLENGE_CHECK_CHARS 6
+#define CHALLENGE_PORT 9999
+
+#endif
