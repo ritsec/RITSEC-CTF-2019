@@ -1,0 +1,9 @@
+Flask
+pycrypto
+Jinja2
+flask-sqlalchemy
+flask-talisman
+requests
+lxml
+beautifulsoup4
+flask-seasurf

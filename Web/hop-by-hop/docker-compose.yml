@@ -1,0 +1,22 @@
+version:  "3.7"
+
+services:
+  www:
+    image: app
+    build:
+      context: ./app/
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/app/:/var/www/html/challenge/app/
+    depends_on:
+      - proxy
+  proxy:
+    image: proxy
+    build:
+      context: ./proxy/
+      dockerfile: Dockerfile
+    environment:
+      PROXYLOCATION: http://www/
+
+    ports:
+      - "81:81"

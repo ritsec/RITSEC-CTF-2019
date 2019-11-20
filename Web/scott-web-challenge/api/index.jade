@@ -1,0 +1,71 @@
+doctype html
+html
+  head
+    title API
+    link(href='./bootstrap.min.css', rel='stylesheet')
+    script(type='text/javascript', src='../assets/js/jquery-1.11.3.min.js')
+  body
+    style(type='text/css').
+      .active,table{
+      text-align: center;
+      }
+      td{
+      text-align: left;
+      }
+      td:first-child{
+      text-transform: uppercase;
+      letter-spacing: 1;
+      text-align: center;
+      }
+      .container>h1{
+      text-transform: capitalize;
+      margin-bottom: 3%;
+      margin-top: 3%;
+      color:rgb(64,64,64) ;
+      }
+      ul{
+      padding: 0;
+      }
+      ul>li{
+      list-style-type: none;
+      color:PaleVioletRed;
+      text-align: left;
+      }
+      .highlight{
+      color:rgb(104,104,104);
+      }
+    .container
+      h1 API stuff you NEED to check out!
+      p
+        | Below are some of the api endpoints that you can use. Please use them and try to find the flag!
+      h5 Please use the data given below to make your queries to the API.
+      p
+      table.table.table-bordered
+        thead
+          tr
+            th.active Nodes
+            th.active Description
+        tbody
+          tr
+            td
+              a(href='http://ist.rit.edu/api/about/', target='_blank') /api/admin
+            td
+              ul
+                | For admin users to authenticate to our site.  Please provide us your authorization token given to you by /auth
+          tr
+            td
+              a(href='http://ist.rit.edu/api/degrees/', target='_blank') /api/normal
+            td
+              ul
+                | For standard users to authenticate to our site.  Please provide us your authorization token given to you by /auth
+          tr
+            td
+              a(href='http://ist.rit.edu/api/degrees/', target='_blank') /auth
+            td
+              ul
+                | For the authentication server on port 3000 🙂! Please send your name and this api will return your token for accessing the api!
+    script(type='text/javascript').
+      $(function(){
+      $('li').wrapInner("<code></code>");
+      });
+
